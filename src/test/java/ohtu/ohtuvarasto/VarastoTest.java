@@ -58,7 +58,7 @@ public class VarastoTest {
     @Test
     public void laitetaanKonstruktoriinLiikaa() {
         Varasto var = new Varasto(5,7);
-        assertEquals(var.getSaldo(),5,vertailuTarkkuus);
+        assertEquals(var.getSaldo(),4,vertailuTarkkuus);
     }
     @Test
     public void uudellaVarastollaOikeaTilavuus() {
